@@ -18,6 +18,10 @@ import javax.persistence.Table;
 		        	name="searchEmploy",
 		        	query="from Employ where empid=:empid"
 		        ),
+		    @NamedQuery(
+		        	name="searchManager",
+		        	query="from Employ where managerId=:managerId"
+		        ),
 	    }
 	    )
 
